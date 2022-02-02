@@ -5,7 +5,7 @@ public class MenueFuehrung {
     Scanner sc = new Scanner(System.in);
 
     public Schueler erstelleUser() {
-
+        breakLine();
         System.out.println("Gebe den Vornamen ein");
         String pVorname = sc.nextLine();
 
@@ -25,6 +25,7 @@ public class MenueFuehrung {
     }
 
     public String anmeldung(){
+        breakLine();
         System.out.println("Bitte geben Sie ihr Passwort ein!");
 
         String ret = sc.next();
@@ -33,15 +34,19 @@ public class MenueFuehrung {
     }
 
     public boolean abmeldung(){
+        breakLine();
         System.out.println("Sie werden abgemeldet");
         return false;
     }
 
     public void zeigeFaecher(Schueler pSchueler){
+        breakLine();
         pSchueler.alleFaecherAusgeben();
+        breakLine();
     }
 
     public Fach fachAnlegen(){
+        breakLine();
         System.out.println("Bitte Fachnamen angeben");
         String pName = sc.next();
 
@@ -51,6 +56,7 @@ public class MenueFuehrung {
     }
 
     public int start(){
+        breakLine();
         System.out.println("Wählen Sie aus:");
         System.out.println(" (1) Fach anlegen:");
         System.out.println(" (2) Note für Fach anlegen:");
@@ -58,5 +64,34 @@ public class MenueFuehrung {
         System.out.println(" (4) Abmelden");
         
         return sc.nextInt();
+    }
+
+
+    public void noteAnlegen(Schueler pSchueler){
+        breakLine();
+        System.out.println("Für welches Fach wollen Sie eine Note anlegen?");
+        pSchueler.alleFachNamenMitNummernAusgeben();
+        System.out.println("Bitte Fachnummer angeben");
+        int nummer = sc.nextInt();
+
+        pSchueler.NoteFuerFachAnlegen(nummer, noteAbfragen());
+    }
+
+    private Note noteAbfragen(){
+        breakLine();
+        System.out.println("Wie lautet die Note:");
+        int pNote = sc.nextInt();
+
+        System.out.println("Wie lautet das Jahr:");
+        int pJahr = sc.nextInt();
+
+        Note note = new Note(pNote, pJahr);
+
+        return note;
+    }
+
+
+    private void breakLine(){
+        System.out.println("-----------");
     }
 }

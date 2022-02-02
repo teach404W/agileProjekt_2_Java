@@ -35,10 +35,11 @@ public class Schuelerverwaltung {
 
     public void zeigeMenue(){
         while(angemeldet == true){
+            System.out.println("-----------");
             switch(menueFuehrung.start()){
                 case 1: schueler.fachAnlegen(menueFuehrung.fachAnlegen());
                         break;
-                case 2:
+                case 2: menueFuehrung.noteAnlegen(this.schueler);
                         break;
                 case 3: schueler.alleFaecherAusgeben();
                         break;

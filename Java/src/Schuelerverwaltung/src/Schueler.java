@@ -47,14 +47,50 @@ public class Schueler extends Person{
     }
 
     void fachAnlegen(Fach pFach){
+        System.out.println("Fach Anlegen Schüler:" + pFach);
         for (int i = 0; i < faecher.length ; i++){
             if (faecher[i] == null){
                 faecher[i] = pFach;
+                System.out.println("Fach angelegt in Fach: " + i);
                 return;
             }
         }
         System.out.println("Alle Fächer belegt");
     }
    
+
+    public void alleFaecherAusgeben(){
+       // System.out.println("Alle Fächer ausgeben aus Person");
+        for (int i = 0; i < faecher.length ; i++){
+        //    System.out.println("Überprüfe Fachnummer: " + i );
+            if (faecher[i] != null){
+        //        System.out.println("Fach not null");
+                System.out.println(faecher[i]);
+            }
+        }
+    }
+
+    public void  alleFachNamenMitNummernAusgeben(){
+        for (int i = 0; i < faecher.length ; i++){
+            //    System.out.println("Überprüfe Fachnummer: " + i );
+                if (faecher[i] != null){
+            //        System.out.println("Fach not null");
+                    System.out.println("Nummer (" + i +") "+ faecher[i].getName());
+                }
+            }
+    }
+
+
+    void NoteFuerFachAnlegen(int pFachID, Note pNote){
+         if (faecher[pFachID] == null){
+                System.out.println("Es gibt kein Fach mit dieser ID");
+                return;
+            }else{
+                this.faecher[pFachID].noteHinzufuegen(pNote);
+            }
+        }
+        
+    
+    
     
 }
