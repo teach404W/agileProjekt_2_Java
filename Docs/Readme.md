@@ -1,15 +1,19 @@
 # Inhalt
 
-
 - OOP Modellierung
   - Objektmodellierung
   - Klassenmodellierung
 - Sequienzdigramme
 - Sichtbarkeit
+- Rekursion
 - private, public, package und protected
 - Arrays
+  - Ein und zweidimensional
 - Vererbung
   - Polymorphie
+- (optional) Exceptionhandling
+- (optional) GUI
+- (optional) Speichern der Daten (z. B. in einer Datei oder Datenbank)
 
 ## Inhalt Pflichtenheft
 
@@ -35,12 +39,12 @@ https://plantuml.com/de/
 
 1. Speichern Sie ihr generiertes Diagramme z. B. unter Docs/Diagramme als `Name.iuml` Datei ab.
 2. Binden Sie Ihr Diagramm mittels PlantUML Proxy und Ihrem Repopfad ein:
+
+***Wichtig*** Navigieren Sie auf der Github-Webseite zu dem gewünschten Diagramm -> Raw ansicht auswählen und davon den Pfad kopieren. Der Pfad hat das Muster: https://raw.githubusercontent.com/USERNAME/REPONAME/PFAD/ExampleClass.iuml
+   
+   **Beispiel**
    ```
-   ![your-UML-diagram-name](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/jonashackt/plantuml-markdown/master/example-uml.iuml)
+   ![your-UML-diagram-name](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/teach404W/agileProjekt_2_Java/main/Docs/Diagramme/ExampleClass.iuml)
    ```
 
-
-
-![your-UML-diagram-name](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/jonashackt/plantuml-markdown/master/example-uml.iuml)
-
-
+![your-UML-diagram-name](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/teach404W/agileProjekt_2_Java/main/Docs/Diagramme/ExampleClass.iuml)
