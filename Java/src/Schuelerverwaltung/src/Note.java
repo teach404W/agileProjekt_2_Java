@@ -1,6 +1,6 @@
 public class Note {
     private int note;
-    private String jahr;
+    private int jahr;
 
 
     public Note (int pNote, int pJahr){
