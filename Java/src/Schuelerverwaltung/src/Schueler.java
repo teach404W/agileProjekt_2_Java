@@ -81,7 +81,7 @@ public class Schueler extends Person{
     }
 
 
-    void NoteFuerFachAnlegen(int pFachID, Note pNote){
+    public void noteFuerFachAnlegen(int pFachID, Note pNote){
          if (faecher[pFachID] == null){
                 System.out.println("Es gibt kein Fach mit dieser ID");
                 return;

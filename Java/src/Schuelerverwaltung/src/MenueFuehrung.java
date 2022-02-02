@@ -75,7 +75,7 @@ public class MenueFuehrung {
         System.out.println("Bitte Fachnummer angeben");
         int nummer = sc.nextInt();
 
-        pSchueler.NoteFuerFachAnlegen(nummer, noteAbfragen());
+        pSchueler.noteFuerFachAnlegen(nummer, noteAbfragen());
     }
 
     private Note noteAbfragen(){
