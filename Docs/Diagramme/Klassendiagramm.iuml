@@ -1,0 +1,56 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+class Schuelerverwaltung{
+ +schueler : Schueler
+}
+
+
+
+class MenueFuehrung{
+ +MenueFuehrung()
+}
+
+
+
+
+
+class Fach{
+ -name : String
+ +getName(): String
+ +setName(pName : String) : void
+}
+
+class Note{
+ -note: int
+ -jahr : int
+ +Note(pNote : int, pJahr : int)
+ +getNote(): String
+ +setNote(pNote : int) : void
+ +getJahr(): String
+ +setJahr(pNote : int) : void
+}
+
+
+
+
+class Schueler{
+ -vorname: String
+ -nachname: String
+ -alter : int
+ -passwort : String
+ +ueberpruefePasswort(pPassword : String): boolean
+ +setVorname(pName : String) : void
+ +setNachname(pName : String) : void
+ +getVorname() : String
+ +getNachname() : String
+ +setAlter(pAlter : int) : void
+ +getAlter() : int
+}
+
+
+Fach "1" *-- "0..*" Note
+Schuelerverwaltung  *-- "1" MenueFuehrung
+Schueler "1" *-- "1..*" Fach
+
+@enduml

@@ -28,7 +28,16 @@ Die Menüfuhrung ist rein Textutell. Beim Start der Anwendung gibt es eine Psswo
 Nach der Anmeldung wählt der Benutzer die Option Fach anwählen danach wird er nach einen Namen und einem Jahr gefragt, welche er über die Konsole eingibt.
 Sofern es das Fach mit dem Namen und Jahr schon gibt wird die Methode abgebrochen und es erscheint eine Ausgabe, die den Nutzern auf den Fehler bei der Eingabe hinweist.
 
-#### 1. Digramm Funktion Fach anlegen
+#### 1.1 Diagramm (Aktivitätsdiagramm) Funktion Fach anlegen
 
 ![your-UML-diagram-name](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/teach404W/agileProjekt_2_Java/main/Docs/Diagramme/AnwendungsFall_Fach_anlegen.iuml)
+
+## 3. Diagramm Dokumentation
+
+![your-UML-diagram-name](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/teach404W/agileProjekt_2_Java/main/Docs/Diagramme/Klassendiagramm.iuml)
+
+### Klassendiagramm
+
+### Objektdiagramm
+TOFILL
 
