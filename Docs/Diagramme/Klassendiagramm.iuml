@@ -11,7 +11,19 @@ class MenueFuehrung{
  +MenueFuehrung()
 }
 
-
+class Person{
+ -vorname: String
+ -nachname: String
+ -alter : int
+ -passwort : String
+ +ueberpruefePasswort(pPassword : String): boolean
+ +setVorname(pName : String) : void
+ +setNachname(pName : String) : void
+ +getVorname() : String
+ +getNachname() : String
+ +setAlter(pAlter : int) : void
+ +getAlter() : int
+}
 
 
 
@@ -35,22 +47,13 @@ class Note{
 
 
 class Schueler{
- -vorname: String
- -nachname: String
- -alter : int
- -passwort : String
- +ueberpruefePasswort(pPassword : String): boolean
- +setVorname(pName : String) : void
- +setNachname(pName : String) : void
- +getVorname() : String
- +getNachname() : String
- +setAlter(pAlter : int) : void
- +getAlter() : int
+
 }
 
 
 Fach "1" *-- "0..*" Note
 Schuelerverwaltung  *-- "1" MenueFuehrung
 Schueler "1" *-- "1..*" Fach
+Schueler <|-- Person
 
 @enduml
