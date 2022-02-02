@@ -15,8 +15,6 @@ class Person{
  -vorname: String
  -nachname: String
  -alter : int
- -passwort : String
- +ueberpruefePasswort(pPassword : String): boolean
  +setVorname(pName : String) : void
  +setNachname(pName : String) : void
  +getVorname() : String
@@ -47,7 +45,9 @@ class Note{
 
 
 class Schueler{
-
+  -passwort : String
+  +ueberpruefePassword(pPassword : String): boolean
+  +setPassword(pPassword : String) : void
 }
 
 
