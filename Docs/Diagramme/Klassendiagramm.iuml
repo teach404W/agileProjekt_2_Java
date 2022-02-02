@@ -51,9 +51,9 @@ class Schueler{
 }
 
 
-Fach "1" *-- "0..*" Note
+Fach "1" *-- "0..10" Note
 Schuelerverwaltung  *-- "1" MenueFuehrung
-Schueler "1" *-- "1..*" Fach
+Schueler "1" *-- "0..10" Fach
 Schueler <|-- Person
 
 @enduml

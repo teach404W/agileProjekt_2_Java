@@ -4,11 +4,21 @@ public class Person {
     private String vorname;
     private String nachname;
 
+    private Fach[] faecher = new Fach[10];
+
 
     public Person(String pVorname, String pNachname, int pAlter){
         setAlter(pAlter);
         setNachname(pNachname);
         setVorname(pVorname);
+    }
+
+    public void alleFaecherAusgeben(){
+        for (int i = 0; i< faecher.length ; i++){
+            if (faecher[i] != null){
+                System.out.println(faecher[i]);
+            }
+        }
     }
 
     public String getVorname(){
