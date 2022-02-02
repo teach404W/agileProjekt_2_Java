@@ -25,8 +25,12 @@ Die Menüfuhrung ist rein Textutell. Beim Start der Anwendung gibt es eine Psswo
 ## 2. Beschreibung der Funktion
 
 ### 1. Beschreibung Funktion Fach anlegen
-Nach der Anmeldung wählt der Benutzer die Option Fach anwählen danach wird er nach einen Namen und einem Jahr gefragt, welche er über die Konsole eingibt.
-Sofern es das Fach mit dem Namen und Jahr schon gibt wird die Methode abgebrochen und es erscheint eine Ausgabe, die den Nutzern auf den Fehler bei der Eingabe hinweist.
+Nach der Anmeldung wählt der Benutzer die Option Fach danach wird er nach einen Namen, einem Jahr und einem Passwort gefragt. Diese gibt er über die Konsole ein.
+Anschließend erscheint ein Menü indem die Benutzer zwichen den Folgenden Punkte wählen können:
+- Fach anlegen
+- Note anlegen
+- Noten / Fach anzeigen
+- abmdelden
 
 #### 1.1 Diagramm (Aktivitätsdiagramm) Funktion Fach anlegen
 
