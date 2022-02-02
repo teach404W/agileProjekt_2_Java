@@ -10,7 +10,7 @@ public class Schuelerverwaltung {
         schueler = menueFuehrung.erstelleUser();
 
         anmeldung();
-        zeigeMenue();
+        menueFuehrung.zeigeMenue(this);
     }
 
     private void anmeldung(){
@@ -30,24 +30,15 @@ public class Schuelerverwaltung {
 
 
     public void abmeldung(){
-        angemeldet = menueFuehrung.abmeldung();
+        this.angemeldet = false;
     }
 
-    public void zeigeMenue(){
-        while(angemeldet == true){
-            System.out.println("-----------");
-            switch(menueFuehrung.start()){
-                case 1: schueler.fachAnlegen(menueFuehrung.fachAnlegen());
-                        break;
-                case 2: menueFuehrung.noteAnlegen(this.schueler);
-                        break;
-                case 3: schueler.alleFaecherAusgeben();
-                        break;
-                case 4: this.angemeldet = menueFuehrung.abmeldung();
-                        break;
-                default: System.out.println("Bitte eingabe wiederholen");
-            }
-        }
-        
+    public boolean getAngemeldet(){
+        return this.angemeldet;
     }
+
+    public Schueler getSchueler(){
+        return this.schueler;
+    }
+    
 }

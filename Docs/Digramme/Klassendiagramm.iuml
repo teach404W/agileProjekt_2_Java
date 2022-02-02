@@ -3,8 +3,12 @@ skinparam classAttributeIconSize 0
 
 class Schuelerverwaltung{
  -schueler : Schueler
-
- + Schuelerverwaltung (pSchueler : Schueler)
+ -angemeldet : boolean
+ + Schuelerverwaltung ()
+ + anmeldung() : void
+ - anmeldung(pPassword : String) : void
+ + abmeldung() : void
+ + zeigeMenue() : void
 }
 
 

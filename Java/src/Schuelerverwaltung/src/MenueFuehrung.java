@@ -33,10 +33,11 @@ public class MenueFuehrung {
         return ret;
     }
 
-    public boolean abmeldung(){
+    public void abmeldung( Schuelerverwaltung pSchuelerverwaltung){
         breakLine();
+        pSchuelerverwaltung.abmeldung();
         System.out.println("Sie werden abgemeldet");
-        return false;
+        
     }
 
     public void zeigeFaecher(Schueler pSchueler){
@@ -93,5 +94,23 @@ public class MenueFuehrung {
 
     private void breakLine(){
         System.out.println("-----------");
+    }
+
+    public void zeigeMenue(Schuelerverwaltung pSchuelerverwaltung){
+        while(pSchuelerverwaltung.getAngemeldet() == true){
+            System.out.println("-----------");
+            switch(start()){
+                case 1: pSchuelerverwaltung.getSchueler().fachAnlegen(fachAnlegen());
+                        break;
+                case 2: noteAnlegen(pSchuelerverwaltung.getSchueler());
+                        break;
+                case 3: pSchuelerverwaltung.getSchueler().alleFaecherAusgeben();
+                        break;
+                case 4: abmeldung(pSchuelerverwaltung);
+                        break;
+                default: System.out.println("Bitte eingabe wiederholen");
+            }
+        }
+        
     }
 }
