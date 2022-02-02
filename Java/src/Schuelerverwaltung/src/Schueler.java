@@ -55,7 +55,7 @@ public class Schueler extends Person{
                 return;
             }
         }
-        System.out.println("Alle Fächer belegt");
+        System.out.println("Maximialanzahl der Fächer erreicht");
     }
    
 
