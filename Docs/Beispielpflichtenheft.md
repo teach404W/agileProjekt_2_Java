@@ -34,9 +34,11 @@ Sofern es das Fach mit dem Namen und Jahr schon gibt wird die Methode abgebroche
 
 ## 3. Diagramm Dokumentation
 
-![your-UML-diagram-name](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/teach404W/agileProjekt_2_Java/main/Docs/Diagramme/Klassendiagramm.iuml)
 
 ### Klassendiagramm
+
+![your-UML-diagram-name](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/teach404W/agileProjekt_2_Java/main/Docs/Diagramme/Klassendiagramm.iuml)
+
 
 ### Objektdiagramm
 TOFILL
