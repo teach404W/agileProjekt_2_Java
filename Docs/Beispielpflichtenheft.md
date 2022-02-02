@@ -22,9 +22,10 @@ Die Menüfuhrung ist rein Textutell. Beim Start der Anwendung gibt es eine Psswo
   - (erst Auswahl für ein Fach und Jahr, dann eintragen)
 - Note für Fach anzeigen
 
-## 2. Beschreibung der Funktion
+## 2. Beschreibung des Funktionsablaufes
 
-### 1. Beschreibung Funktion Fach anlegen
+### Fach anlegen()
+#### Beschreibung Funktion Fach anlegen
 Nach der Anmeldung wählt der Benutzer die Option Fach danach wird er nach einen Namen, einem Jahr und einem Passwort gefragt. Diese gibt er über die Konsole ein.
 Anschließend erscheint ein Menü indem die Benutzer zwichen den Folgenden Punkte wählen können:
 - Fach anlegen
@@ -32,9 +33,18 @@ Anschließend erscheint ein Menü indem die Benutzer zwichen den Folgenden Punkt
 - Noten / Fach anzeigen
 - abmdelden
 
-#### 1.1 Diagramm (Aktivitätsdiagramm) Funktion Fach anlegen
-
+#### Diagramm (Aktivitätsdiagramm) Funktion Fach anlegen
 ![your-UML-diagram-name](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/teach404W/agileProjekt_2_Java/main/Docs/Diagramme/AnwendungsFall_Fach_anlegen.iuml)
+### Note anlegen()
+TOFILL
+
+#### Beschreibung METHODE
+TOFILL
+
+#### Diagramm METHODE
+TOFILL
+
+
 
 ## 3. Diagramm Dokumentation
 
