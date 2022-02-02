@@ -3,12 +3,12 @@
 - OOP Modellierung
   - Objektmodellierung
   - Klassenmodellierung
-- Sequienzdigramme
+- Sequienzdiagramme
 - Sichtbarkeit
 - Rekursion
 - private, public, package und protected
 - Arrays
-  - Ein und zweidimensional
+  - Ein- und Zweidimensionale
 - Vererbung
   - Polymorphie
 - (optional) Exceptionhandling
@@ -16,6 +16,9 @@
 - (optional) Speichern der Daten (z. B. in einer Datei oder Datenbank)
 
 ## Inhalt Pflichtenheft
+Definition Pflichtenheft: https://de.wikipedia.org/wiki/Pflichtenheft
+
+### Kapitelübersicht
 
 1. Textuelle Beschreibung der Anwendung
 2. Textuelle Beschreibung der Funktionen
@@ -25,7 +28,7 @@
    2. Klassendiagramm
    3. Methoden aus 2.
       1. Sequenzdiagramm
-      2. (optional) PAP, Struktogramm, 
+      2. (optional) PAP, Struktogramm, MokUp, etc. 
 
 
 ## Diagramme Erstellen
