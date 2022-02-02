@@ -1,10 +1,20 @@
 # Inhalt
+In diesem Projekt soll ihr die folgende Java-Kenntnisse erlangen: 
 
 - OOP Modellierung
   - Objektmodellierung
   - Klassenmodellierung
-- Sequienzdiagramme
+- Diagramme
+  - Sequenzdiagramme
+  - Klassendiagramme
+  - Objektdiagramme
+  - Aktivitätsdiagramme
+  - uvw.
 - Sichtbarkeit
+- Beziehung zwischen Klassen
+  - Assoziation
+    - Aggregation
+    - Komposition
 - Rekursion
 - private, public, package und protected
 - Arrays
