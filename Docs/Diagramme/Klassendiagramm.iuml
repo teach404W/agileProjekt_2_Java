@@ -2,7 +2,9 @@
 skinparam classAttributeIconSize 0
 
 class Schuelerverwaltung{
- +schueler : Schueler
+ -schueler : Schueler
+
+ + Schuelerverwaltung (pSchueler : Schueler)
 }
 
 

@@ -3,6 +3,10 @@ public class Fach {
 
     private Note[] noten = new Note[10];
 
+    public Fach(String pName){
+        setName(pName);
+    }
+
 
     public String gebeAlleNotenAus(){
         String ret = "";
