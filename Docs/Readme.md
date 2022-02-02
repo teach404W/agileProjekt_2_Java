@@ -14,6 +14,7 @@
 - (optional) Exceptionhandling
 - (optional) GUI
 - (optional) Speichern der Daten (z. B. in einer Datei oder Datenbank)
+- (optional) Methoden und Klassendokumentation mithilfe von Jdoc
 
 ## Inhalt Pflichtenheft
 Definition Pflichtenheft: https://de.wikipedia.org/wiki/Pflichtenheft

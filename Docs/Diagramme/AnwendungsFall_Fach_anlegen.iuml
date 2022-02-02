@@ -1,4 +1,9 @@
 @startuml
-skinparam actorStyle awesome
-:User: --> (Anmelden) --> (Menü: Fach anlegen) --> (Frage welches Fach) --> (Frage welches Jahr) --> (Ausgabe Bestätigung)
+start
+:Anmelden;
+:Menü: Fach anlegen;
+:Frage welches Fach;
+:Frage welches Jahr;
+:Ausgabe Bestätigung;
+stop
 @enduml
