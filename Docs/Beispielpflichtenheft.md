@@ -13,10 +13,10 @@
 ## 1. Beschreibung der Anwendung
 
 ### **Grobbeschreibung** 
-Wir implementieren eine Notenverwaltng für Schüler. In dieser Anwendung sollen Nutzer ihre Fächer (inkl. unterschiedlicher Jahre) verwalten können. Dabei sollen neben der Noten auch der zugehörige Fachlehrer und das jahr gespeichert werden. 
+Wir implementieren eine Notenverwaltng für Schüler. In dieser Anwendung sollen Nutzer ihre Fächer (inkl. unterschiedlicher Jahre) verwalten können. Dabei sollen neben der Noten auch der zugehörige Fachlehrer und das Jahr gespeichert werden. 
 
 ### **Menüführung**
-Die Menüfuhrung ist rein Textutell. Beim Start der Anwendung gibt es eine Psswortabfrage und danach kann der Nutzer wählen zwischen:
+Die Menüfuhrung ist rein Textuell. Beim Start der Anwendung gibt es eine Passwortabfrage und danach kann der Nutzer wählen zwischen:
 - Fach anlegen
 - Note für Fach eintragen
   - (erst Auswahl für ein Fach und Jahr, dann eintragen)
@@ -32,12 +32,12 @@ Anschließend erscheint ein Menü indem die Benutzer zwichen den Folgenden Punkt
 - Fach anlegen
 - Note anlegen
 - Noten / Fach anzeigen
-- abmdelden
+- abmelden
 
 
 ### **Fach anlegen()**
 #### **Beschreibung Funktion Fach anlegen**
-Nach der Anmeldung kann der Benutzer den Menüpunkt "Fach anlegen" auswählen. In dieser Funktion wird er nach einem Fachnamen gefragt. Dieses Fach wird anschließend generiert und in ds Array Faecher[] der Klasse Schueler gelegt.
+Nach der Anmeldung kann der Benutzer den Menüpunkt "Fach anlegen" auswählen. In dieser Funktion wird er nach einem Fachnamen gefragt. Dieses Fach wird anschließend generiert und in das Array Faecher[] der Klasse Schueler gelegt.
 
 **Besonderheiten**
 Es können maximal 10 Fächer angelegt werden. Danach erfolgt eine Ausgabe: "Maximialanzahl der Fächer erreicht".

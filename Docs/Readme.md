@@ -11,12 +11,13 @@ In diesem Projekt soll ihr die folgende Java-Kenntnisse erlangen:
   - Aktivitätsdiagramme
   - uvw.
 - Sichtbarkeit
+  - private, public, package und protected
 - Beziehung zwischen Klassen
   - Assoziation
     - Aggregation
     - Komposition
 - Rekursion
-- private, public, package und protected
+
 - Arrays
   - Ein- und Zweidimensionale
 - Vererbung

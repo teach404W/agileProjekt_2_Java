@@ -24,7 +24,7 @@ class MenueFuehrung{
  + abmeldung() : void
  + zeigeFaecher(pSchueler : Schueler) : void
  + fachAnlegen() : Fach
- + start() : int
+ - start() : int
  + noteAnlegen(pSchueler : Schueler) : void
  + noteAbfragen() : pNote
  + zeigeMenue(pSchuelerverwaltung : Schuelerverwaltung) : void
