@@ -89,6 +89,6 @@ class Schueler{
 Fach "1" *-- "0..10" Note
 Schuelerverwaltung  *-- "1" MenueFuehrung
 Schueler "1" *-- "0..10" Fach
-Schueler <|-- Person
+Person <|-- Schueler
 
 @enduml
