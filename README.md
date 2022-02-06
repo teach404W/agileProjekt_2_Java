@@ -1,4 +1,5 @@
-# agileProjekt_2_Java
+# 03 Projekt Verwaltungsanwendung
+An dieser Stelle können Sie eine Beschreibung Ihrer Anwendung, Struktur etc. einfügen.
 # Inhalt
 In diesem Projekt soll ihr die folgende Java-Kenntnisse erlangen: 
 
