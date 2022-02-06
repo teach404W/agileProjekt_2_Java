@@ -45,7 +45,7 @@ Es können maximal 10 Fächer angelegt werden. Danach erfolgt eine Ausgabe: "Max
 
 #### **Diagramm (Aktivitätsdiagramm) Funktion Fach anlegen**
 
-![your-UML-diagram-name](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/teach404W/agileProjekt_2_Java/main/Docs/Diagramme/AnwendungsFall_Fach_anlegen.iuml)
+![your-UML-diagram-name](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/teach404W/agileProjekt_2_Java/main/Docs/Pflichtenheft/Diagramme/AnwendungsFall_Fach_anlegen.iuml)
 
 ### **Note anlegen()**
 TOFILL
@@ -63,7 +63,7 @@ TOFILL
 
 ### **Klassendiagramm**
 
-![your-UML-diagram-name](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/teach404W/agileProjekt_2_Java/main/Docs/Diagramme/Klassendiagramm.iuml)
+![your-UML-diagram-name](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/teach404W/agileProjekt_2_Java/main/Docs/Pflichtenheft/Diagramme/Klassendiagramm.iuml)
 
 
 ### **Objektdiagramm**
